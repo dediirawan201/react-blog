@@ -1,9 +1,10 @@
+import {Topbar} from './components/molecouls'
 
 function App() {
   return (
-    <div className="App">
-      blog react
-    </div>
+    <>
+      <Topbar/>
+    </>
   );
 }
 
