@@ -1,12 +1,15 @@
-import { Header } from '../../components/molecouls';
+import { Header, Posts, Sidebar } from '../../components/molecouls';
 import './home.css';
 
 const Home = () => {
     return (
-        <div>
-            <Header/>
-            home
+        <>
+        <Header/>
+        <div className="home">
+            <Posts/>
+            <Sidebar/>
         </div>
+        </>
     )
 }
 
