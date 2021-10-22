@@ -1,3 +1,5 @@
 import Topbar from "./Topbar";
+import Header from "./Header";
 
-export {Topbar}
+
+export {Topbar, Header}
