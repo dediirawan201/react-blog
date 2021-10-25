@@ -1,11 +1,11 @@
 import {Topbar} from './components/molecouls'
-import {Home} from './pages';
+import {Home, Single} from './pages';
 
 function App() {
   return (
     <>
       <Topbar/>
-      <Home/>
+      <Single/>
     </>
   );
 }
