@@ -1,11 +1,12 @@
 import {Topbar} from './components/molecouls'
-import {Home, Single, Write} from './pages';
+import {Home, Login, Settings, Single, Write} from './pages';
+import Register from './pages/Register';
 
 function App() {
   return (
     <>
       <Topbar/>
-      <Write/>
+      <Register/>
     </>
   );
 }
